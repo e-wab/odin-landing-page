@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    color:#F9FAF8;
+    background-color: #1F2937;
+}
+
+.text{
+    font-size: 18px;
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    height: 30px;
+}
