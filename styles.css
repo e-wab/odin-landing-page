@@ -2,10 +2,11 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
+    padding: 0px 100px;
 }
 
 ul {
@@ -15,7 +16,7 @@ ul {
     gap: 20px;
 }
 
-.title {
+.hero-title {
     font-size: 48px;
     font-weight: 700;
     color:#F9FAF8;
@@ -32,5 +33,99 @@ ul {
     align-items: center;
     background-color: #1F2937;
     color: white;
-    height: 30px;
+    height: 60px;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    /* justify-content: space-between; */
+    gap: 10px;
+    color: white;
+}
+
+.first-container {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 100px; 
+}
+
+.placeholder {
+    background-color: darkgray;
+    color: white;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+}
+
+button {
+    background-color: #3882F6;
+    border-color: #3882F6;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: ;
+}
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    flex-grow: 1;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: 800;
+    color:black;
+    background-color: white;
+    text-align: center;
+    margin: 30px;
+}
+
+.segment {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+    align-items: center;
+}
+
+.information-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-placeholder {
+    background-color: white;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 5px;
+}
+
+.second-container {
+    padding: 30px;
+}
+
+.subtext {
+    text-align: center;
 }
